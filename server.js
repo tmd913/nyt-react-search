@@ -20,4 +20,4 @@ app.use(routes);
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/nytreact', {useNewUrlParser: true});
 
-app.listen(PORT, () => console.log(`starting server at PORT: ${PORT}`));
+app.listen(PORT, () => console.log(`starting server at PORT: ${PORT}`)); 
